@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<style>
+    
+    .image{
+        margin: 40px;
+        /* border: 1px solid rgb(73, 151, 177); */
+    }
+    p{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 50px;
+    }
+    .main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+    .grid-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+.g-1 img{
+    width: 100%;
+    height: 100%;
+}
+.g-1{
+    width: 300px;
+}
+.grid-img-one{
+    width: 600px;
+}
+.grid-img-one img{
+    width: 100%;
+    height: 100%;
+}
+.grid-img-two{
+    width: 600px;
+}
+.grid-img-two img{
+    width: 100%;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="image">
+            <p><b>Gallery</b></p>
+        </div>
+       <div class="main-grid">
+        <div class="grid-img-one"><img src="/_117310488_16.jpg" alt=""></div>
+        <div class="grid-two">
+            <div class="g-1" ><img src="/download (1).jpeg" alt=""></div>
+            <div class="g-1"><img src="download.jpeg" alt=""></div>
+            <div class="g-1"><img src="images.jpeg" alt=""></div>
+            <div class="g-1"><img src="/istockphoto-1249041775-612x612.jpg" alt=""></div>
+        </div>
+        <div class="grid-img-two"><img src="/photo-1526547541286-73a7aaa08f2a.jpeg" alt=""></div>
+        <div class="grid-img-two"><img src="/photo-1511739001486-6bfe10ce785f.jpeg" alt=""></div>
+       </div>
+    </div>
+</body>
+</html>
